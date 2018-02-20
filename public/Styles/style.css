@@ -1,0 +1,94 @@
+/* Styling to remove the spinner for type="number" input */
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+   margin: 0;
+}
+
+/* Styling to set the size of the google map */
+.Gmap:first-of-type, .Gmap:first-of-type > div {
+  height: 200px !important;
+  width: 250px !important;
+}
+
+td, th {
+  vertical-align: center !important;
+  text-align: center !important;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Styling to keep the background image fixed and cover the entire browser */
+body {
+  background-image: url("../resources/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling to keep the footer at the bottom of the page and fix it there */
+footer {
+  color: white;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 0;
+  width: auto;
+  padding: 1rem;
+}
+
+/* Stylinf for when the screen size shrinks allowing the weather table to overflow */
+.tableInfo {
+  overflow-x:auto;
+  padding: 0px;
+}
+
+.mainTableRow{
+  padding: 15px;
+}
+
+.tableWhite{
+  background-color: white;
+}
+
+.emptyRow {
+  height: 10px !important;
+  width: 100%;
+}
+
+.tableTransparent{
+  background-color: transparent;
+}
+
+.noBorder {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+/* Removing border from all table elements */
+table {border: none !important}
+tbody {border: none !important}
+tr {border: none !important}
+td {border: none !important}
+thead {border: none !important}
+th {border: none !important}
+
+/* Styling to round the borders of my weatherList and table head */
+tr:first-child th:first-child { border-top-left-radius: 10px; }
+tr:first-child th:last-child { border-top-right-radius: 10px; }
+tr:first-child th:first-child { border-bottom-left-radius: 10px; }
+tr:first-child th:last-child { border-bottom-right-radius: 10px; }
+
+
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+tr:first-child td:first-child { border-bottom-left-radius: 10px; }
+tr:first-child td:last-child { border-bottom-right-radius: 10px; }
+
+/* Styling for delete all button */
+.dAll {margin: 10px 0 0 5px;}
